@@ -1,8 +1,12 @@
 {
-  "name": "dd",
+  "name": "dungeonsdragonshelper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhayeck/dungeonsdragonshelper.git"
+  },
   "dependencies": {
     "angular": "^1.5.5",
     "angular-ui-router": "^0.2.18",
