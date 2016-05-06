@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html ng-app="dungeons_dragons">
+  <head>
+    <script src="angular/angular.js"></script>
+    <script src="angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="character/character.js"></script>
+    <script src="home/home.js"></script>
+    <script src="encounter/encounter.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div>
+      
+      <button ui-sref="home"><h1>Dungeons & Dragons Helper</h1></button>
+      <button ui-sref="char"><h6>Character Creator</h6></button>
+       <button ui-sref="encounter"><h6>Encounter Creator</h6></button>
+
+      <div ui-view></div>
+
+    </div>
+
+  </body>
+</html>

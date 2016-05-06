@@ -1,0 +1,25 @@
+<div>
+  <div>
+    <span ng-model="points">Points Available: {{points}}</span>
+    <button ng-click="pointsIncrease()">Increase Available Points</button>
+    <button ng-click="pointsDecrease()">Decrease Available Points</button>
+  </div>
+  <div>
+    <span>Total Points: {{totalPoints}}</span>
+    <div>
+      <span>Total</span>
+      <span>Modifier</span>
+      <span>Base</span>
+      <span>Racial Mod.</span>
+      <span>Point Cost</span>
+    </div>
+    <div ng-repeat="stat in stats">
+      <span>{{stat.which}}</span>
+      <span>{{stat.total}}</span>
+      <span>{{stat.mod}}</span>
+      <span>{{stat.base}}</span>
+      <span>{{stat.race}}</span>
+      <span>{{stat.cost}}</span>
+    </div>
+  </div>
+</div>
